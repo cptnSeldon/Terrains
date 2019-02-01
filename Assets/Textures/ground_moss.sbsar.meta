@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 1fa3504ef94d72f43b8ff8f52201a4d4
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Ground Moss
+    2800000: Ground Moss - baseColor
+    2800002: Ground Moss - normal
+    2800004: Ground Moss - metallic
+    2800006: Ground Moss - ambientOcclusion
+    2800008: Ground Moss - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Ground Moss
+    prototypeName: Ground Moss
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://ground_moss\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"4079788715\" type=\"8\" value=\"12,12\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Ground Moss - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Ground Moss - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 4096
+      textureHeight: 4096
+      textureFormat: 1
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 1fa3504ef94d72f43b8ff8f52201a4d4, type: 3}
+    generatedTextures: []
