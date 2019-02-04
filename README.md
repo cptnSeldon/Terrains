@@ -6,6 +6,8 @@ Plugins used :
 
 Packages used :
 - SpeedTree, by Speedtree
+- Free Island Collection, by Bicameral Studios
+- Grass And Flowers Pack 1, by Vladislav Pochezhertsev
 - Nature Starter Kit, by Shapes Assets (shapes.hu)
 
 Links : 
