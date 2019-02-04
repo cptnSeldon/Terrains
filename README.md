@@ -5,6 +5,7 @@ Plugins used :
 - Substance, by Allegorithmic
 
 Packages used :
+- SpeedTree, by Speedtree
 - Nature Starter Kit, by Shapes Assets (shapes.hu)
 
 Links : 
